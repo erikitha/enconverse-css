@@ -1,0 +1,55 @@
+// @import "../styles/variables.scss";
+
+
+.Categorias {
+  padding: 0 5px 0 5px;
+
+}
+
+// .img-categoria {
+//   display: flex;
+//   justify-content:center;
+// }
+
+.img-categoria {
+  // display: flex;
+  // width:50px;
+  // height:250px;
+  // float: left;
+  // width: 24%;
+  // max-width: 100%;
+
+
+ display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+
+  // --gap: 16px;
+  // --num-cols:4;
+  // --row-height: 300px;
+
+  // box-sizing:border-box;
+  // padding:var(--gap)
+
+  // display:
+  // grid-tamplate-columns:repeat(var(--num-cols), 1fr);
+  // grid-auto-rows: var(--row-height);
+
+}
+
+figure {
+  // vertical-align: top;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 80%;
+
+}
+
+figcaption {
+  display: block;
+  position: relative;
+  top:280px;
+  right: 180px;
+}

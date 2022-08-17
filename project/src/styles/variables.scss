@@ -1,6 +1,8 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 $font-stack: 'Poppins', sans-serif;
 $yellow: #fbb900;
+
 
 button {
   box-sizing: border-box;
@@ -16,3 +18,26 @@ button {
   font-weight: bold;
   color: #fff;
 }
+
+h2 {
+  color:#4D4D4D;
+  font-family:$font-stack;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 32px;
+}
+
+figcaption {
+  color:#4D4D4D;
+  font-family:$font-stack;
+  // margin-top: 20px;
+  // margin-left: 50px;
+  font-size: 16px;
+  text-align:center;
+}
+
+// .container{
+//   width: 200px;
+//   float: left;
+//   padding: 0px;
+// }
