@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+$font-stack: 'Poppins', sans-serif;
+$yellow: #fbb900;
+
+button {
+  box-sizing: border-box;
+  border:none;
+	margin-top: 5px;
+	padding: 15px 5px;
+	width: 170px;
+	height: 80%;
+	background: $yellow;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family:$font-stack ;
+  font-weight: bold;
+  color: #fff;
+}
