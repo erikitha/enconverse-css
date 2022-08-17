@@ -1,0 +1,45 @@
+
+.Banner {
+  background: url(../../img/Maskgroup.png) no-repeat;
+  height: 600px;
+  background-size:cover;
+  background-position: center;
+  margin-top: -50px;
+  z-index: -10px;
+}
+
+.Banner-letter {
+  position: relative;
+  top: 150px;
+  margin-left: 100px;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;;
+  font-weight: bold;
+  line-height: 0.7 ;
+}
+
+.fa-solid {
+  font-size: 100px;
+  color: red;
+  z-index: 2;
+}
+
+
+.back-left  {
+  position:relative;
+  z-index: 3px;
+  color: #fff;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.foward-right {
+  position:absolute;
+  z-index: 3px;
+  color: #fff;
+  font-size: 30px;
+  padding: 15px;
+  transform: translateX(100%);
+  left:93%
+}
